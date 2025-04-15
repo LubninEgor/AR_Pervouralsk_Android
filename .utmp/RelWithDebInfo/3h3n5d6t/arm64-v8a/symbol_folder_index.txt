@@ -1,0 +1,1 @@
+D:\GIT_UNITY\AR_Pervouralsk_Android\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\3h3n5d6t\obj\arm64-v8a

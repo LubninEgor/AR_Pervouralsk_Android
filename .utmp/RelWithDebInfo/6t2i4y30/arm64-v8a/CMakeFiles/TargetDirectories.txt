@@ -1,0 +1,5 @@
+D:/GIT_UNITY/AR_Pervouralsk_Android/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/GIT_UNITY/AR_Pervouralsk_Android/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/GIT_UNITY/AR_Pervouralsk_Android/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/GIT_UNITY/AR_Pervouralsk_Android/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/GIT_UNITY/AR_Pervouralsk_Android/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
