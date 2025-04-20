@@ -51,5 +51,9 @@ public class Score : MonoBehaviour
     {
         
     }
-	//PlayerPrefs.DeleteAll(); // удалит все значения
+	public void DelefeALL()
+	{
+		PlayerPrefs.DeleteAll(); // удалит все значения
+	}
+	
 }

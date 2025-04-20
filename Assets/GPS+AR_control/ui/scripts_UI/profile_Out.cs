@@ -52,4 +52,10 @@ public class profile_Out : MonoBehaviour
 		map_IMG.fillAmount = (1f/3f) * walk_map;
 		test_IMG.fillAmount = (1f/6f) * score_test;
 	}
+	
+	
+	public void DelefeALL()
+	{
+		PlayerPrefs.DeleteAll(); // удалит все значения
+	}
 }
