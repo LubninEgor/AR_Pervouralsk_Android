@@ -9,17 +9,8 @@ public class Score : MonoBehaviour
 	[Header("пройдено истории")]
 	public int history = 0;
 	
-	[Header("качество ответов на контору")]
-	public int q_1_kontora = 0;
-	public int q_2_kontora = 0;
-	
-	[Header("качество ответов на кричный")]
-	public int q_1_kcichniy = 0;
-	public int q_2_kcichniy = 0;
-	
-	[Header("качество ответов на кузницу")]
-	public int q_1_kuznitsa = 0;
-	public int q_2_kuznitsa = 0;
+	[Header("сколько пройдено тестов")]
+	public int score_test = 0;
 	
 	[Header("сколько пройдено точек")]
 	public int walk_map = 0;
@@ -27,14 +18,7 @@ public class Score : MonoBehaviour
 	
     void Start()
     {
-        q_1_kontora = PlayerPrefs.GetInt("Q_1_kontora");
-		q_2_kontora = PlayerPrefs.GetInt("Q_2_kontora");
-					
-		q_1_kcichniy = PlayerPrefs.GetInt("Q_1_kcichniy");
-		q_2_kcichniy = PlayerPrefs.GetInt("Q_2_kcichniy");
-					
-		q_1_kuznitsa = PlayerPrefs.GetInt("Q_1_kuznitsa");
-		q_2_kuznitsa = PlayerPrefs.GetInt("Q_2_kuznitsa");
+		score_test = PlayerPrefs.GetInt("Test");
 					
 		walk_map = PlayerPrefs.GetInt("Walk_map");
 		
@@ -61,6 +45,7 @@ public class Score : MonoBehaviour
 		PlayerPrefs.Save();
 		
 	}
+	
 	
     void Update()
     {

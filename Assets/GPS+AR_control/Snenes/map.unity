@@ -473,6 +473,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 419946413}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: SetNextLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &84613835
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +944,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 419946413}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: SetNextLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1763,6 +1787,7 @@ GameObject:
   - component: {fileID: 419946409}
   - component: {fileID: 419946408}
   - component: {fileID: 419946412}
+  - component: {fileID: 419946413}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1865,6 +1890,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7ac727a3530e449c8f9de71b16610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &419946413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419946407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759c47382ea9f8944af1abfc5e0b4a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &454235817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,7 +1915,7 @@ GameObject:
   - component: {fileID: 454235820}
   - component: {fileID: 454235819}
   m_Layer: 5
-  m_Name: Image
+  m_Name: dd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2834,6 +2871,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 419946413}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: SetNextLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -4170,10 +4219,10 @@ RectTransform:
   - {fileID: 507608132}
   m_Father: {fileID: 650861517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 1.5, y: 225}
-  m_SizeDelta: {x: 1083, y: 452.72}
+  m_SizeDelta: {x: 3, y: 452.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045893076
 MonoBehaviour:
@@ -5676,7 +5725,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1741346126}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419946412}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: NextLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1741346126
 MonoBehaviour:
   m_ObjectHideFlags: 0

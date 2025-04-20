@@ -895,6 +895,7 @@ GameObject:
   - component: {fileID: 419946409}
   - component: {fileID: 419946408}
   - component: {fileID: 419946412}
+  - component: {fileID: 419946413}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1000,6 +1001,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3d7ac727a3530e449c8f9de71b16610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &419946413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419946407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759c47382ea9f8944af1abfc5e0b4a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &470123552
@@ -3822,6 +3835,7 @@ GameObject:
   - component: {fileID: 4635012683719374932}
   - component: {fileID: 2652825186689403713}
   - component: {fileID: 6779113285302974161}
+  - component: {fileID: 6779113285302974162}
   m_Layer: 5
   m_Name: "Button \u0434\u0430\u043B\u044C\u0448\u0435"
   m_TagString: Untagged
@@ -3919,18 +3933,45 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 419946412}
-        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
-        m_MethodName: NextLevel
-        m_Mode: 3
+      - m_Target: {fileID: 6779113285302974162}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: Set_Map
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 419946413}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6779113285302974162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5712571700186320179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee5326ca6f43fc4b94dcb270a1f43b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  history: 0
+  score_test: 0
+  walk_map: 0
 --- !u!114 &7614429342803027658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3968,8 +4009,8 @@ MonoBehaviour:
   m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.7924528, g: 0.69526523, b: 0.5494838, a: 1}
-    m_PressedColor: {r: 0.7924528, g: 0.69526523, b: 0.5494838, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3986,10 +4027,34 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 8610449495223721819}
+  m_TargetGraphic: {fileID: 2652825186689403713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6779113285302974162}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: Set_Map
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 419946413}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8133844693754356835
 MonoBehaviour:
   m_ObjectHideFlags: 0

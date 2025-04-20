@@ -17,18 +17,25 @@ public class test : MonoBehaviour
 		if(Correct_ANS.isOn)
 		{
 			Correct_ANS.GetComponent<Image>().color = Color_Correct;
+			UnCorrect_ANS_1.GetComponent<Image>().color = Color_Main;
+			UnCorrect_ANS_2.GetComponent<Image>().color = Color_Main;
+		
+			PlayerPrefs.SetInt("Test", PlayerPrefs.GetInt("Test")+1);
+			PlayerPrefs.Save();
 		}
 		
 		else if(UnCorrect_ANS_1.isOn)
 		{
 			UnCorrect_ANS_1.GetComponent<Image>().color = Color_In_Correct;
-			Correct_ANS.GetComponent<Image>().color = Color_Correct;
+			Correct_ANS.GetComponent<Image>().color = Color_Main;
+			UnCorrect_ANS_2.GetComponent<Image>().color = Color_Main;
 		}
 		
 		else if(UnCorrect_ANS_2.isOn)
 		{
 			UnCorrect_ANS_2.GetComponent<Image>().color = Color_In_Correct;
-			Correct_ANS.GetComponent<Image>().color = Color_Correct;
+			Correct_ANS.GetComponent<Image>().color = Color_Main;
+			UnCorrect_ANS_1.GetComponent<Image>().color = Color_Main;
 		}
 	}
 	

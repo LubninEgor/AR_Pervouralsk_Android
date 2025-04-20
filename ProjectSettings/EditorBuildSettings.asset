@@ -15,11 +15,26 @@ EditorBuildSettings:
     path: Assets/GPS+AR_control/Snenes/AR+GPS.unity
     guid: 184c67ccc5f5032448cdc425e5f6af75
   - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/profile.unity
+    guid: 0d3dc60340189d14ca71f2f3eab7e0d5
+  - enabled: 1
     path: Assets/GPS+AR_control/Snenes/history/kontora_history.unity
     guid: db9a61cdb2d7fce4c8ff993c72da8668
   - enabled: 1
     path: Assets/GPS+AR_control/Snenes/history/kyznica_history.unity
     guid: e79df7cc7b4e02e488e5eaf331a70557
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/history/krichniy_history.unity
+    guid: 7ac9a06e41f10f847ab3b864bc40121a
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/tests/kontora_test.unity
+    guid: 5f0fb3faf1d97f544911288f0b6e1371
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/tests/kyznitsa_test.unity
+    guid: a9832a6c6059be0459f96ab7780c4889
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/tests/krichniy_test.unity
+    guid: e3e2ad767e82c8546a73b15695207409
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

@@ -16,8 +16,11 @@ public class MagnetScroll : MonoBehaviour
 
     void Start()
     {
+		
         scrollRect = GetComponent<ScrollRect>();
         CalculateElementPositions();
+		scrollRect.horizontalNormalizedPosition = elementPositions[0];
+		
     }
 
     void CalculateElementPositions()
@@ -50,8 +53,7 @@ public class MagnetScroll : MonoBehaviour
         if (distance < magnetZone)
         {
             // Плавное притяжение
-            float newPos = Mathf.Lerp(currentPos, magnetPos, 
-                                    magnetStrength * Time.deltaTime * (1 - distance/magnetZone));
+            float newPos = Mathf.Lerp(currentPos, magnetPos, magnetStrength * Time.deltaTime * (1 - distance/magnetZone));
             scrollRect.horizontalNormalizedPosition = newPos;
         }
     }
