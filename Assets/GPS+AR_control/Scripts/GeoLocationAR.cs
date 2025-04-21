@@ -115,20 +115,42 @@ public class GeoLocationAR : MonoBehaviour
         }
     }
 
-    void CreateOrUpdateARObject(ARTarget target)
-    {
-        Vector3 targetPosition = GetARPositionFromGPS(target.latitude, target.longitude);
 
-        if (target.instance == null)
-        {
-            target.instance = Instantiate(target.prefab, targetPosition, GetNorthAlignedRotation());
-        }
-        else
-        {
-            target.instance.transform.position = targetPosition;
-            target.instance.transform.rotation = GetNorthAlignedRotation();
-        }
-    }
+	// ЗАМЕНИТЬ НА:
+	void CreateOrUpdateARObject(ARTarget target)
+	{
+		Vector3 targetPosition = GetARPositionFromGPS(target.latitude, target.longitude);
+		
+		ARAnchorManager anchorManager = arSessionOrigin.GetComponent<ARAnchorManager>();
+		if (anchorManager == null)
+		{
+			Debug.LogError("ARAnchorManager не найден!");
+			return;
+		}
+	
+		if (target.instance == null)
+		{
+			// Создаем новый якорь через GameObject
+			GameObject anchorGO = new GameObject("ARAnchor");
+			ARAnchor anchor = anchorGO.AddComponent<ARAnchor>();
+			anchor.transform.SetPositionAndRotation(targetPosition, GetNorthAlignedRotation());
+			
+			target.instance = Instantiate(target.prefab, anchor.transform);
+		}
+		else
+		{
+			// Уничтожаем старый объект и якорь
+			Destroy(target.instance.transform.parent.gameObject); // Удаляем родительский якорь
+			Destroy(target.instance);
+			
+			// Создаем новый якорь
+			GameObject anchorGO = new GameObject("ARAnchor");
+			ARAnchor anchor = anchorGO.AddComponent<ARAnchor>();
+			anchor.transform.SetPositionAndRotation(targetPosition, GetNorthAlignedRotation());
+			
+			target.instance = Instantiate(target.prefab, anchor.transform);
+		}
+	}
 
     Quaternion GetNorthAlignedRotation()
     {
@@ -145,10 +167,17 @@ public class GeoLocationAR : MonoBehaviour
         return R * c * 1000f; // Возвращаем расстояние в метрах
     }
 
-    Vector3 GetARPositionFromGPS(double latitude, double longitude)
-    {
-        float x = (float)(longitude - Input.location.lastData.longitude) * 100000f;
-        float z = (float)(latitude - Input.location.lastData.latitude) * 100000f;
-        return new Vector3(x, 0f, z);
-    }
+    Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
+	{
+		double currentLat = Input.location.lastData.latitude;
+		double currentLon = Input.location.lastData.longitude;
+
+		// 1 градус широты ≈ 111319.488 метров
+		double zOffset = (targetLat - currentLat) * 111319.488;
+
+		// 1 градус долготы зависит от широты
+		double xOffset = (targetLon - currentLon) * 111319.488 * Mathf.Cos((float)currentLat * Mathf.Deg2Rad);
+	
+		return new Vector3((float)xOffset, 0, (float)zOffset);
+	}
 }

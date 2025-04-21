@@ -462,7 +462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Plane_Register: {fileID: 224465426}
-  Text_GPS: {fileID: 315778421}
   tmpInputField: {fileID: 678454326}
 --- !u!114 &139884280
 MonoBehaviour:
@@ -2748,9 +2747,9 @@ RectTransform:
   - {fileID: 853189185}
   m_Father: {fileID: 413642007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -1200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 2400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639262886
@@ -4032,9 +4031,9 @@ RectTransform:
   - {fileID: 1978944861}
   m_Father: {fileID: 413642007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2700, y: -1200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 2400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961882951
@@ -5117,13 +5116,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1174673715}
         m_TargetAssemblyTypeName: test, Assembly-CSharp
         m_MethodName: Check_Ans
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: krichniy1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1174673713
@@ -6053,7 +6052,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca9b3427d3685842b66dc8c257894c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnetElementIndex: 1
   magnetStrength: 20
   magnetZone: 0.15
 --- !u!1 &1473949494
@@ -6383,13 +6381,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1503925037}
         m_TargetAssemblyTypeName: test, Assembly-CSharp
         m_MethodName: Check_Ans
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: krichniy1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1503925035
@@ -6882,9 +6880,9 @@ RectTransform:
   - {fileID: 55076470}
   m_Father: {fileID: 413642007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1620, y: -1200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 2400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644741974

@@ -1504,6 +1504,32 @@ PrefabInstance:
       objectReference: {fileID: 315778423}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
+      propertyPath: arSessionOrigin
+      value: 
+      objectReference: {fileID: 1277649364}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 1747119822869698226, guid: b89a41ad3ba764d4c8f3371f9c2c1320,
+        type: 3}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[3].latitude
+      value: 56.90239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[3].longitude
+      value: 59.9418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
       propertyPath: targets.Array.data[0].targetDistance
       value: 30
       objectReference: {fileID: 0}
@@ -1515,6 +1541,11 @@ PrefabInstance:
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[2].targetDistance
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[3].targetDistance
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8673172891870820231, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
@@ -1769,6 +1800,7 @@ GameObject:
   - component: {fileID: 1277649363}
   - component: {fileID: 1277649362}
   - component: {fileID: 1277649361}
+  - component: {fileID: 1277649366}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1858,6 +1890,22 @@ Transform:
   - {fileID: 361378574}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277649366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277649360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728ad7fae8e460a4ba41265c7308d757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AnchorPrefab: {fileID: 0}
 --- !u!1 &1290172423
 GameObject:
   m_ObjectHideFlags: 0

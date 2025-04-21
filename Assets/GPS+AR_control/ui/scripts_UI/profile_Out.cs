@@ -20,6 +20,15 @@ public class profile_Out : MonoBehaviour
 	[Header("пройдено тестов")]
 	public int score_test = 0;
 	
+	public int test_kontora_1 = 0;
+	public int test_kontora_2 = 0;
+	
+	public int test_krichniy_1 = 0;
+	public int test_krichniy_2 = 0;
+	
+	public int test_kuznitsa_1 = 0;
+	public int test_kuznitsa_2 = 0;
+	
 	[Header("сколько пройдено точек")]
 	public int walk_map = 0;
 	
@@ -37,11 +46,20 @@ public class profile_Out : MonoBehaviour
 	
 	void GET_And_OUT()
 	{		
+		test_kontora_1 = PlayerPrefs.GetInt ("Test_kontora_1");
+		test_kontora_2 = PlayerPrefs.GetInt ("Test_kontora_2");
+		
+		test_krichniy_1 = PlayerPrefs.GetInt("Test_krichniy_1");
+		test_krichniy_2 = PlayerPrefs.GetInt("Test_krichniy_2");
+		
+		test_kuznitsa_1 = PlayerPrefs.GetInt("Test_kuznitsa_1");
+		test_kuznitsa_2 = PlayerPrefs.GetInt("Test_kuznitsa_2");
+		
 		walk_map = PlayerPrefs.GetInt("Walk_map");
 		
 		history = PlayerPrefs.GetInt("History");
 		
-		score_test = PlayerPrefs.GetInt("Test");
+		score_test = test_kontora_1+test_kontora_2+test_krichniy_1+test_krichniy_2+test_kuznitsa_1+test_kuznitsa_2;
 		
 		history_TMP.text = "Можно изучить материал по 3м воссозданым  историческм зданиям. Вы изучили " + history + ".";
 		map_TMP.text = "Всего можно посетить 3 воссозданых  историческх здания. Вы посмотрели " + walk_map + ".";

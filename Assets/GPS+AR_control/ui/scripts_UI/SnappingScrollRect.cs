@@ -5,22 +5,19 @@ using UnityEngine.UI;
 public class MagnetScroll : MonoBehaviour
 {
     [Header("Magnet Settings")]
-    public int magnetElementIndex = 1; // Индекс элемента с магнитом (1 - второй элемент)
-    public float magnetStrength = 2f; // Сила притяжения
-    public float magnetZone = 0.3f; // Зона действия магнита
+    public float magnetStrength = 10f;    // Сила притяжения
+    public float magnetZone = 0.3f;       // Зона действия магнита
 
     private ScrollRect scrollRect;
     private bool isDragging = false;
     private float[] elementPositions;
-    private float contentWidth;
+    private int magnetElementIndex;       // Теперь индекс определяется автоматически
 
     void Start()
     {
-		
         scrollRect = GetComponent<ScrollRect>();
         CalculateElementPositions();
-		scrollRect.horizontalNormalizedPosition = elementPositions[0];
-		
+		scrollRect.horizontalNormalizedPosition = elementPositions[magnetElementIndex];
     }
 
     void CalculateElementPositions()
@@ -37,9 +34,28 @@ public class MagnetScroll : MonoBehaviour
 
     void Update()
     {
+        UpdateMagnetElementIndex();
+        
         if (!isDragging)
         {
             ApplyMagnetEffect();
+        }
+    }
+
+    // Автоматически определяем ближайший элемент
+    void UpdateMagnetElementIndex()
+    {
+        float currentPos = scrollRect.horizontalNormalizedPosition;
+        float minDistance = Mathf.Infinity;
+        
+        for (int i = 0; i < elementPositions.Length; i++)
+        {
+            float distance = Mathf.Abs(currentPos - elementPositions[i]);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                magnetElementIndex = i;
+            }
         }
     }
 
@@ -53,7 +69,11 @@ public class MagnetScroll : MonoBehaviour
         if (distance < magnetZone)
         {
             // Плавное притяжение
-            float newPos = Mathf.Lerp(currentPos, magnetPos, magnetStrength * Time.deltaTime * (1 - distance/magnetZone));
+            float newPos = Mathf.Lerp(
+                currentPos, 
+                magnetPos, 
+                magnetStrength * Time.deltaTime * (1 - distance/magnetZone)
+            );
             scrollRect.horizontalNormalizedPosition = newPos;
         }
     }
