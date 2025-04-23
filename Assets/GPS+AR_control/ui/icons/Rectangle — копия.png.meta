@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Rectangle \u2014 \u043A\u043E\u043F\u0438\u044F_0": 4734821096650705645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
