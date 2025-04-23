@@ -6,7 +6,7 @@ public class MagnetScroll : MonoBehaviour
 {
     [Header("Magnet Settings")]
     public float magnetStrength = 10f;    // Сила притяжения
-    public float magnetZone = 0.3f;       // Зона действия магнита
+    public float magnetZone = 0.2f;       // Зона действия магнита
 
     private ScrollRect scrollRect;
     private bool isDragging = false;
