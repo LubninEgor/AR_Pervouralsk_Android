@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1bd7c63316fc2c54d910fefdd52f4627
+guid: 43f9ee713e484a64881d734f146d1ffa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2068027360461803792
-    second: Ellipse 178_0
+      213: 3743674846960021049
+    second: render_krichniy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 178_0
+      name: render_krichniy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 104
-        height: 104
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fea2e19214ec43e0800000000000000
-      internalID: -2068027360461803792
+      spriteID: 93eed9f307434f330800000000000000
+      internalID: 3743674846960021049
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ellipse 178_0: -2068027360461803792
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
