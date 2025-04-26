@@ -1776,7 +1776,6 @@ GameObject:
   - component: {fileID: 419946409}
   - component: {fileID: 419946408}
   - component: {fileID: 419946412}
-  - component: {fileID: 419946413}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1882,19 +1881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d7ac727a3530e449c8f9de71b16610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &419946413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419946407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb4fc8b17218b924bb1ffe6f93fffb19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Window: {fileID: 1850347355}
 --- !u!1 &463361944
 GameObject:
   m_ObjectHideFlags: 0
@@ -4664,8 +4650,8 @@ MonoBehaviour:
   m_MovementType: 1
   m_Elasticity: 0.1
   m_Inertia: 1
-  m_DecelerationRate: 0.3
-  m_ScrollSensitivity: 3
+  m_DecelerationRate: 2
+  m_ScrollSensitivity: 3000
   m_Viewport: {fileID: 1098825376}
   m_HorizontalScrollbar: {fileID: 247690845}
   m_VerticalScrollbar: {fileID: 0}
@@ -4726,8 +4712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca9b3427d3685842b66dc8c257894c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnetStrength: 10
-  magnetZone: 0.2
+  magnetStrength: 30
+  magnetZone: 0.1
 --- !u!1 &1504002808
 GameObject:
   m_ObjectHideFlags: 0
