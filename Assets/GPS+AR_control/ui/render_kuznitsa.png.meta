@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      render_kuznitsa_0: 9178524854741015072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

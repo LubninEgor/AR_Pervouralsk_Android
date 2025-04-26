@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      render_krichniy_0: 3743674846960021049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
