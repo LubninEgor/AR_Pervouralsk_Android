@@ -16,11 +16,11 @@ PlayerSettings:
   productName: AR_pvk_history
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.93725497, g: 0.89019614, b: 0.76470596, a: 1}
-  m_ShowUnitySplashScreen: 0
+  m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 0
-  m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 1
+  m_SplashScreenOverlayOpacity: 0
+  m_SplashScreenAnimation: 0
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 1
@@ -799,7 +799,8 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: -3422611652729338387, guid: 9c8a974cfc07d3d47977b06b76812896,
+    type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 0
   spritePackerPolicy: 
