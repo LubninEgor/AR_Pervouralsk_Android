@@ -17,6 +17,7 @@ public class GeoLocationAR : MonoBehaviour
         public double longitude;     // Целевая долгота
         public float targetDistance; // Дистанция, на которой будет отображаться объект (в метрах)
         [HideInInspector] public GameObject instance; // Ссылка на созданный объект
+		[HideInInspector] public bool isPlaced = false; // Новый флаг для фиксации позиции
     }
 
     public ARSessionOrigin arSessionOrigin;
@@ -119,36 +120,25 @@ public class GeoLocationAR : MonoBehaviour
 	// ЗАМЕНИТЬ НА:
 	void CreateOrUpdateARObject(ARTarget target)
 	{
+		if (target.isPlaced) return;
+	
 		Vector3 targetPosition = GetARPositionFromGPS(target.latitude, target.longitude);
 		
 		ARAnchorManager anchorManager = arSessionOrigin.GetComponent<ARAnchorManager>();
-		if (anchorManager == null)
-		{
-			Debug.LogError("ARAnchorManager не найден!");
-			return;
-		}
+		if (anchorManager == null) return;
 	
 		if (target.instance == null)
 		{
-			// Создаем новый якорь через GameObject
+			// Создаем якорь через GameObject
 			GameObject anchorGO = new GameObject("ARAnchor");
+			anchorGO.transform.position = targetPosition;
+			anchorGO.transform.rotation = GetNorthAlignedRotation();
+			
+			// Добавляем компонент ARAnchor
 			ARAnchor anchor = anchorGO.AddComponent<ARAnchor>();
-			anchor.transform.SetPositionAndRotation(targetPosition, GetNorthAlignedRotation());
 			
-			target.instance = Instantiate(target.prefab, anchor.transform);
-		}
-		else
-		{
-			// Уничтожаем старый объект и якорь
-			Destroy(target.instance.transform.parent.gameObject); // Удаляем родительский якорь
-			Destroy(target.instance);
-			
-			// Создаем новый якорь
-			GameObject anchorGO = new GameObject("ARAnchor");
-			ARAnchor anchor = anchorGO.AddComponent<ARAnchor>();
-			anchor.transform.SetPositionAndRotation(targetPosition, GetNorthAlignedRotation());
-			
-			target.instance = Instantiate(target.prefab, anchor.transform);
+			target.instance = Instantiate(target.prefab, anchorGO.transform);
+			target.isPlaced = true;
 		}
 	}
 
