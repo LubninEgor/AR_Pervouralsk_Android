@@ -11,9 +11,9 @@ public class Back_android : MonoBehaviour
     void Update()
     {
         // Проверяем нажатие кнопки (жеста) "Назад" на мобильном устройстве
-        if (Input.GetKeyDown(KeyCode.Escape)) // Код для кнопки "Назад"
-        {
-			Window.SetActive(false);
-        }
+        //if (Input.GetKeyDown(KeyCode.Escape)) // Код для кнопки "Назад"
+        //{
+		//	Window.SetActive(false);
+        //}
     }
 }

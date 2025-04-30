@@ -36,7 +36,11 @@ public class Score : MonoBehaviour
 			PlayerPrefs.SetInt("History_kuznitsa", 1);
 		PlayerPrefs.Save();
 		
-		history = PlayerPrefs.GetInt("History_kontora") + PlayerPrefs.GetInt("History_krichniy") + PlayerPrefs.GetInt("History_kuznitsa");
+		if(nom_history == 4)
+			PlayerPrefs.SetInt("History_domna", 1);
+		PlayerPrefs.Save();
+		
+		history = PlayerPrefs.GetInt("History_kontora") + PlayerPrefs.GetInt("History_krichniy") + PlayerPrefs.GetInt("History_kuznitsa") + PlayerPrefs.GetInt("History_domna");
 		PlayerPrefs.SetInt("History", history);
 		PlayerPrefs.Save();
 		
@@ -55,7 +59,11 @@ public class Score : MonoBehaviour
 			PlayerPrefs.SetInt("Walk_kuznitsa", 1);
 		PlayerPrefs.Save();
 		
-		walk_map = PlayerPrefs.GetInt("Walk_kontora") + PlayerPrefs.GetInt("Walk_krichniy") + PlayerPrefs.GetInt("Walk_kuznitsa");
+		if(Load.Building_for_viev == 10)
+			PlayerPrefs.SetInt("Walk_domna", 1);
+		PlayerPrefs.Save();
+		
+		walk_map = PlayerPrefs.GetInt("Walk_kontora") + PlayerPrefs.GetInt("Walk_krichniy") + PlayerPrefs.GetInt("Walk_kuznitsa") + PlayerPrefs.GetInt("Walk_domna");
 		PlayerPrefs.SetInt("Walk_map", walk_map);
 		PlayerPrefs.Save();
 		
