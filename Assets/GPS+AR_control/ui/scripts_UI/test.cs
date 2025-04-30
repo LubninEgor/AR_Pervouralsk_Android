@@ -56,5 +56,10 @@ public class test : MonoBehaviour
 		if(name_test == "kuznitsa2")
 			PlayerPrefs.SetInt("Test_kuznitsa_2", 1);
 		
+		if(name_test == "domna1")
+			PlayerPrefs.SetInt("Test_domna_1", 1);
+		if(name_test == "domna2")
+			PlayerPrefs.SetInt("Test_domna_2", 1);
+		
 	}
 }

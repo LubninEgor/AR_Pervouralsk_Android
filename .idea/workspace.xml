@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c317bb80-db08-4edc-a7df-a3179b76d40b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_Pervouralsk_Android/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_Pervouralsk_Android/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AR_Pervouralsk_Android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/6t2i4y30/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/3d-models/123/кузница.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/3d-models/123/кузница.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/AR+GPS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/AR+GPS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/profile.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/Snenes/profile.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Light SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Medium SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/fonts/Montserrat-Medium SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/Back_android.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/Back_android.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/Score.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/profile_Out.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/profile_Out.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPS+AR_control/ui/scripts_UI/test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2wJf9gZwj5R2h9eIjI4O8A2Eyt2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "device.mirroring"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c317bb80-db08-4edc-a7df-a3179b76d40b" name="Changes" comment="" />
+      <created>1745764450365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745764450365</updated>
+    </task>
+    <servers />
+  </component>
+</project>

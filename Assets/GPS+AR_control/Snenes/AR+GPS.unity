@@ -1674,7 +1674,7 @@ PrefabInstance:
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
@@ -1698,7 +1698,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targets.Array.data[3].prefab
       value: 
-      objectReference: {fileID: 1747119822869698226, guid: b89a41ad3ba764d4c8f3371f9c2c1320,
+      objectReference: {fileID: 1747119822869698226, guid: 35f793376e605e5489c6eee9c2d7d389,
         type: 3}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
@@ -1708,8 +1708,18 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
+      propertyPath: targets.Array.data[1].latitude
+      value: 56.91573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[2].latitude
+      value: 56.91521
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
       propertyPath: targets.Array.data[3].latitude
-      value: 56.90239
+      value: 56.91587
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
@@ -1718,8 +1728,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
+      propertyPath: targets.Array.data[1].longitude
+      value: 59.93195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
+      propertyPath: targets.Array.data[2].longitude
+      value: 59.93126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
+        type: 3}
       propertyPath: targets.Array.data[3].longitude
-      value: 59.9418
+      value: 59.93155
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
