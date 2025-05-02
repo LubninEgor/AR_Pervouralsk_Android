@@ -639,7 +639,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1698,78 +1698,78 @@ PrefabInstance:
         type: 3}
       propertyPath: targets.Array.data[3].prefab
       value: 
-      objectReference: {fileID: 1747119822869698226, guid: 35f793376e605e5489c6eee9c2d7d389,
+      objectReference: {fileID: 5677813634219902365, guid: e66f8c181b60bec45a2d19dc86dae7d6,
         type: 3}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[4].prefab
       value: 
-      objectReference: {fileID: 1747119822869698226, guid: 35f793376e605e5489c6eee9c2d7d389,
+      objectReference: {fileID: 5677813634219902365, guid: e66f8c181b60bec45a2d19dc86dae7d6,
         type: 3}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[1].latitude
-      value: 56.91573
+      value: 56.91512
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[2].latitude
-      value: 56.91521
+      value: 56.91572
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[3].latitude
-      value: 56.91587
+      value: 56.91572
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[4].latitude
-      value: 56.91587
+      value: 56.91572
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[1].longitude
-      value: 59.93195
+      value: 59.93068
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[2].longitude
-      value: 59.93126
+      value: 59.93125
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[3].longitude
-      value: 59.93155
+      value: 59.93125
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[4].longitude
-      value: 59.93155
+      value: 59.93125
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[0].targetDistance
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[1].targetDistance
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[2].targetDistance
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[3].targetDistance
-      value: 30
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 4900698105015381054, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
       propertyPath: targets.Array.data[4].targetDistance
-      value: 30
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8673172891870820231, guid: 2a3cd7ad125bf3d49b21cdf2f69f4fd9,
         type: 3}
