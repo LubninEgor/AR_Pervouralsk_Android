@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 2"
+  m_text: 5676
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 2"
+  m_text: 367
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 3"
+  m_text: 3467
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 1"
+  m_text: 238
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -5465,8 +5465,8 @@ MonoBehaviour:
   Color_Main: {r: 0.82745105, g: 0.7725491, b: 0.6666667, a: 1}
   Color_Correct: {r: 0.31198823, g: 0.5377358, b: 0.32069677, a: 1}
   Color_In_Correct: {r: 0.7647059, g: 0.254902, b: 0.254902, a: 1}
-  Correct_ANS: {fileID: 479495808}
-  UnCorrect_ANS_1: {fileID: 1870381885}
+  Correct_ANS: {fileID: 1870381885}
+  UnCorrect_ANS_1: {fileID: 479495808}
   UnCorrect_ANS_2: {fileID: 1054220659}
 --- !u!1 &1530348250
 GameObject:
@@ -5502,8 +5502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000047684, y: -10.701}
-  m_SizeDelta: {x: 721.0676, y: 167.7188}
+  m_AnchoredPosition: {x: 0.000045776, y: -10.701}
+  m_SizeDelta: {x: 888.0714, y: 167.7188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1530348252
 MonoBehaviour:
@@ -5525,7 +5525,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+  m_text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u043F\u0443\u0434\u043E\u0432
+    \u0432\u043E\u0438\u043D\u0441\u0438\u043A\u0445 \u043F\u0440\u0438\u043F\u0430\u0441\u043E\u0432
+    \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u0438\u043B\u0438 \u043D\u0430 \u0437\u0430\u0432\u043E\u0434\u0435
+    \u0432 1813 \u0433\u043E\u0434\u0443?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a03aea5603b13a244868933c0255f6a7, type: 2}
   m_sharedMaterial: {fileID: -7706864673506089694, guid: a03aea5603b13a244868933c0255f6a7,
@@ -5950,7 +5953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 3"
+  m_text: 197
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -6367,7 +6370,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442\u0432\u0435\u0442 1"
+  m_text: 1300
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e92475124bcc6c44a28ec65ff9f989b, type: 2}
   m_sharedMaterial: {fileID: -4087768284317550423, guid: 1e92475124bcc6c44a28ec65ff9f989b,
@@ -6608,8 +6611,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000047684, y: -10.701}
-  m_SizeDelta: {x: 721.0676, y: 167.7188}
+  m_AnchoredPosition: {x: -0.000013351, y: -10.701}
+  m_SizeDelta: {x: 772.6423, y: 167.7188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931027972
 MonoBehaviour:
@@ -6631,7 +6634,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+  m_text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u043E\u0431\u044B\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445
+    \u0434\u043E\u043C\u043E\u0432 \u0431\u044B\u043B\u043E \u043F\u0440\u0438 \u0437\u0430\u0432\u043E\u0434\u0435
+    \u0432 1799 \u0433\u043E\u0434\u0443?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a03aea5603b13a244868933c0255f6a7, type: 2}
   m_sharedMaterial: {fileID: -7706864673506089694, guid: a03aea5603b13a244868933c0255f6a7,
