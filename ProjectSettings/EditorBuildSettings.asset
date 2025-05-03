@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GPS+AR_control/Snenes/tests/domna_test.unity
     guid: 7515bb8871b41b748a245cbd91694bb5
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/history/obshaia_inform.unity
+    guid: f454fc949654e7f45a136370156237fa
+  - enabled: 1
+    path: Assets/GPS+AR_control/Snenes/tests/obshiy_test.unity
+    guid: 4d9ac48c7ee663c48bb89e9245d4bc45
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

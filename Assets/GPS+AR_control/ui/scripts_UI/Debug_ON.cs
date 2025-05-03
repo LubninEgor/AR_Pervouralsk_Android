@@ -28,7 +28,7 @@ public class Debug_ON : MonoBehaviour
 	
 	public void Chek_Password()
 	{
-		if(tmpInputField.text == "vrar456456456")
+		if(tmpInputField.text == "vrar")
 		{
 			//Text_GPS.SetActive(true);
 			//Plane_Register.SetActive(false);
