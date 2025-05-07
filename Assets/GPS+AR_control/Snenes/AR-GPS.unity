@@ -7657,7 +7657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _screenshotButton: {fileID: 833824880697276590}
-  _uiToHide: {fileID: 5678971082866308587}
+  _uiToHide: {fileID: 5870435344966457830}
   _galleryFolder: AR_Gallery
 --- !u!114 &6405718827032683248
 MonoBehaviour:
