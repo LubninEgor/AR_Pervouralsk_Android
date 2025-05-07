@@ -35,6 +35,9 @@ public class profile_Out : MonoBehaviour
 	[Header("сколько пройдено точек")]
 	public int walk_map = 0;
 	
+	public GameObject achiv1;
+	public GameObject achiv2;
+	
 	
     void Start()
     {
@@ -75,6 +78,16 @@ public class profile_Out : MonoBehaviour
 		history_IMG.fillAmount = (1f/4f) * history;
 		map_IMG.fillAmount = (1f/4f) * walk_map;
 		test_IMG.fillAmount = (1f/8f) * score_test;
+		
+		if(score_test == 8)
+			achiv1.SetActive(false);
+		else
+			achiv1.SetActive(true);
+		
+		if(walk_map == 4)
+			achiv2.SetActive(false);
+		else
+			achiv2.SetActive(true);
 	}
 	
 	

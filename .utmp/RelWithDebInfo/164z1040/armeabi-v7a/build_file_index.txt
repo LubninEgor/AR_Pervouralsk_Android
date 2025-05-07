@@ -1,0 +1,2 @@
+D:\GIT_UNITY\AR_Pervouralsk_Android\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\GIT_UNITY\AR_Pervouralsk_Android\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
