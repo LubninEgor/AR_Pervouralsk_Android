@@ -5,7 +5,7 @@
 [![AR Foundation](https://img.shields.io/badge/AR%20Foundation-6.1.0-blue?style=flat&logo=unity)](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
 [![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android)](https://developer.android.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)](https://opensource.org/licenses/MIT)
-![Made With Love](https://img.shields.io/badge/Made%20With%20Love%20Cheloveki_team-FF69B4?style=flat)
+![Made With Love](https://img.shields.io/badge/Made%20With%20Love%20by%20Cheloveki%20team-FF69B4?style=flat)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 
 
