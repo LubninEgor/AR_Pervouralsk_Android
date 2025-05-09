@@ -66,7 +66,80 @@ PlayerSettings --> Player --> OtherSettings --> identification --> Target API le
 Этот режим сделан для демо или при невозможности посетить историческое место)```
 	
 	4) **Без AR и без GPS** ```(Идеальный режим для слабых устройств. Представляет собой 3д модель с возможностью рессмотреть ее со всех сторон)```
-	
+
+## 📡 Геолокация и AR (как это работает??)
+Проект использует GPS и компас для точного позиционирования виртуальных объектов в реальном мире:
+- **Получение координат**: Через `UnityEngine.LocationService`.
+- **Расчёт расстояния**: Алгоритм Haversine для метрической точности.
+- **Конвертация в AR-пространство**: Пересчёт разницы координат в метры по осям X/Z.
+  
+**Примеры кода**
+
+1️⃣ Получение GPS-координат
+// Запуск службы GPS с точностью 1 метр
+
+```csharp
+
+IEnumerator InitializeGPS()
+{
+    Input.location.Start(1f, 1f); 
+    while (Input.location.status == LocationServiceStatus.Initializing && Time.time < 20)
+    {
+        yield return null; // Ожидание инициализации (макс. 20 секунд)
+    }
+
+    if (Input.location.status == LocationServiceStatus.Failed)
+    {
+        Debug.LogError("Не удалось получить координаты GPS.");
+    }
+    else
+    {
+        gpsInitialized = true;
+        Debug.Log($"GPS начался. Текущая позиция: {Input.location.lastData.latitude}, {Input.location.lastData.longitude}");
+    }
+}
+```
+
+2️⃣ Расчёт расстояния до цели (в метрах)
+Формула Haversine для точного расчёта:
+
+```csharp
+
+// Возвращает расстояние в метрах между двумя точками на Земле
+float CalculateDistanceToTarget(double lat1, double lon1, double lat2, double lon2)
+{
+    float R = 6371f; // Радиус Земли в км
+    float dLat = (float)(lat2 - lat1) * Mathf.Deg2Rad;
+    float dLon = (float)(lon2 - lon1) * Mathf.Deg2Rad;
+    float a = Mathf.Sin(dLat / 2) * Mathf.Sin(dLat / 2) + 
+              Mathf.Cos((float)lat1 * Mathf.Deg2Rad) * 
+              Mathf.Cos((float)lat2 * Mathf.Deg2Rad) * 
+              Mathf.Sin(dLon / 2) * Mathf.Sin(dLon / 2);
+    float c = 2 * Mathf.Atan2(Mathf.Sqrt(a), Mathf.Sqrt(1 - a));
+    return R * c * 1000f; // Конвертация в метры
+}
+```
+
+
+3️⃣ Конвертация GPS → AR-позиция
+Перевод разницы координат в метры для Unity:
+
+```csharp
+// Преобразует разницу широты/долготы в Vector3 (XZ-плоскость)
+Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
+{
+    double currentLat = Input.location.lastData.latitude;
+    double currentLon = Input.location.lastData.longitude;
+
+    // 1 градус широты ≈ 111319.488 м
+    double zOffset = (targetLat - currentLat) * 111319.488;
+
+    // Долгота зависит от широты (коррекция через косинус)
+    double xOffset = (targetLon - currentLon) * 111319.488 * Mathf.Cos((float)currentLat * Mathf.Deg2Rad);
+
+    return new Vector3((float)xOffset, 0, (float)zOffset);
+}
+```
 <!--лицензия-->
 ## 📝 Лицензия
 
