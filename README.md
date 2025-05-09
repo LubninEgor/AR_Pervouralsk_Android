@@ -258,5 +258,5 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 </table>
 
 ### 🌐 Полезные ссылки
-- [Сайт игры](https://https://www.rustore.ru/catalog/app/com.unity.template.ar_mobile.Cheloveki_team)
+- [Сайт игры](https://www.rustore.ru/catalog/app/com.unity.template.ar_mobile.Cheloveki_team)
 - [Чат поддержки](https://t.me/+3vlyPTZFVkswZGQ6) 
