@@ -1,5 +1,6 @@
-# AR_Pervouralsk_Android
-Дополненная реальность с привязкой к GPS. ARCore, Unity <!-- описание репозитория -->
+<!--О проекте-->
+# 🌍 AR Первоуральск [![GitHub Stars](https://img.shields.io/github/stars/LubninEgor/AR_Pervouralsk_Android?style=social)](https://github.com/LubninEgor/AR_Pervouralsk_Android/stargazers)
+
 <!--Блок информации о репозитории в бейджах-->
 [![Unity](https://img.shields.io/badge/Unity-6000.0.23+-black?style=flat&logo=unity)](https://unity.com/)
 [![AR Foundation](https://img.shields.io/badge/AR%20Foundation-6.1.0-blue?style=flat&logo=unity)](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
@@ -11,8 +12,41 @@
 
 ![Logotype](https://github.com/user-attachments/assets/7e47ccd1-32b3-4c86-b8cb-4b610275da83)
 
+**Дополненная реальность для изучения исторических объектов Первоуральска**  
+*AR-гид с точной геолокацией, 3D моделями и интерактивным взаимодействием*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa99dfad-63f2-45ff-894f-52e2e7a68d8a" width="30%">
+  <img src="https://github.com/user-attachments/assets/daef870e-e2b0-4e2d-85e0-2e094627633e" width="30%">
+  <img src="https://github.com/user-attachments/assets/c15095fd-2e0a-4e9c-ae94-eea4a0f50f9e" width="30%">
+</p>
+
+---
+
+## 🚀 Возможности
+
+<div align="center">
+  
+| **Режимы работы**          | **Технологии**                | **Особенности**               |
+|----------------------------|-------------------------------|--------------------------------|
+| 🎯 AR + GPS локация         | 📡 Геолокация Haversine       | 🧭 Компасная калибровка           |
+| 🕹️ AR без GPS              | 📦 AR Foundation + ARCore       | ✋ Интерактивное управление    |
+| 📱 Мобильный 3D просмотр   | 🏛️ 3D модели зданий     | 💾 Оффлайн-режим              |
+
+</div>
+
+---
+
+## ⚡ Быстрый старт
+
+- Unity 6000.0.23f1 ([скачать](unityhub://6000.0.23f1/1c4764c07fb4))
+- Android 9+ устройство [с поддержкой ARCore](https://developers.google.com/ar/devices?hl=ru)
+
+bash
+``` git clone https://github.com/LubninEgor/AR_Pervouralsk_Android.git```
+
 <!--Установка-->
-## 🚀 Как запустить проект?
+## 🚀 Как запустить проект ? (полное руководство)
 
 
 Требования:
@@ -47,7 +81,6 @@ Cкачать версию Uinty: https://unityhub://6000.0.23f1/1c4764c07fb4
 	
 PlayerSettings --> Player --> OtherSettings --> identification --> Target API level (заменить Automatic на Android 9/10) --> сделайте Build (ждите скачивания пакетов через PowerShell)
 
-<!--О проекте-->
 ## 📌 Возможности
 
 
@@ -68,7 +101,7 @@ PlayerSettings --> Player --> OtherSettings --> identification --> Target API le
 	4) **Без AR и без GPS** ```(Идеальный режим для слабых устройств. Представляет собой 3д модель с возможностью рессмотреть ее со всех сторон)```
  - Есть оффлайн-режим и кэширование данных.
 
-## Раздел "Для разработчиков"
+## 🛠 Для разработчиков
 
 Как добавить новые AR-точки в проекте Unity?
  1. запустите сцену "GPS+AR", открыв проект в Unity и перейдя в папку ```Assets\GPS+AR_control\Snenes```
@@ -164,10 +197,10 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 Проект сводобный, при условии упоминания авторов : https://t.me/Prpr11 и https://t.me/Lybnineg, а так же сылки на данный репозиторий в GitHub 
 
 ## 🌟 Roadmap
-- [x] Базовая геолокация AR-объектов  
-- [ ] Интеграция с картами OpenStreetMap  
-- [ ] Добавление аудиогида  
-- [ ] Поддержка iOS (мы пытались, но у нас нет акаунта сертифицированного разработчика Apple)
+ ⭕Базовая геолокация AR-объектов  
+ ❌Интеграция с картами OpenStreetMap  
+ ❌Добавление аудиогида  
+ ❌Поддержка iOS (мы пытались, но у нас нет акаунта сертифицированного разработчика Apple)
 
 ## 🤝 Как помочь проекту
 - Предлагайте идеи через [Issues](https://github.com/LubninEgor/AR_Pervouralsk_Android/issues).  
@@ -186,3 +219,45 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 ![Slide 16_9 - 26-1](https://github.com/user-attachments/assets/6a635bce-6031-470d-a8dc-d9b65938003b)
 ![Slide 16_9 - 27](https://github.com/user-attachments/assets/c4214076-184e-415f-beeb-b914342baf3d)
 ![Slide 16_9 - 28](https://github.com/user-attachments/assets/3ba97cd1-bd3f-4a86-8d3a-2d7d1871f6fd)
+
+
+## 📞 Контакты
+
+<div align="center">
+</div>
+
+### 👨‍💻 Команда разработки
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/LubninEgor">
+        <img src="https://avatars.githubusercontent.com/u/114929277?s=100" width="100px;" alt="Егор Лубнин"/>
+        <br />
+        <sub><b>Егор Лубнин</b></sub>
+      </a>
+      <br />
+      <br />
+      <a href="https://t.me/Lybnineg" title="Telegram">
+        <img src="https://img.shields.io/badge/Telegram-Lybnineg-blue?logo=telegram" />
+      </a>
+    </td>
+	   <p> </p>
+    <td align="center">
+      <a href="https://github.com/Hii1111">
+        <img src="https://avatars.githubusercontent.com/u/182222788?s=100" width="100px;" alt="PRPR11"/>
+        <br/>
+        <sub><b>Вячеслав Глазунов</b></sub>
+      </a>
+      <br />
+      <br />
+      <a href="https://t.me/Prpr11" title="Telegram">
+        <img src="https://img.shields.io/badge/Telegram-Prpr11-blue?logo=telegram" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+### 🌐 Полезные ссылки
+- [Сайт игры](https://https://www.rustore.ru/catalog/app/com.unity.template.ar_mobile.Cheloveki_team)
+- [Чат поддержки](https://t.me/+3vlyPTZFVkswZGQ6) 
