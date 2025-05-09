@@ -32,7 +32,7 @@
 
 ## ⚡ Быстрый старт
 
-- Unity 6000.0.23f1 [скачать](unityhub://6000.0.23f1/1c4764c07fb4)
+- Unity 6000.0.23f1 [скачать](https://unity.com/releases/editor/whats-new/6000.0.23?ysclid=mago5os83f340352189)
 - Android 9+ устройство [с поддержкой ARCore](https://developers.google.com/ar/devices?hl=ru)
 
 bash
@@ -45,7 +45,7 @@ bash
 Требования:
 У вас должны быть установлены Unity Hub + Unity 6000.0.X Целевая версия 6000.0.23.f1
 
-Cкачать версию Uinty: https://unityhub://6000.0.23f1/1c4764c07fb4
+Cкачать версию Uinty: https://unity.com/releases/editor/whats-new/6000.0.23?ysclid=mago5os83f340352189
 
 Пакеты устанавливаются автоматически при запуске проекта.
 
