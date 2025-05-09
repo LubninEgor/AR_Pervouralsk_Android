@@ -1,17 +1,54 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
+
 public class test : MonoBehaviour
 {
 	public Color Color_Main;
 	public Color Color_Correct;
 	public Color Color_In_Correct;
 	
-	public Toggle Correct_ANS;
+	public Transform[] targets = new Transform[3]; // Перетащите все ответы сюда
 	
+	public Toggle Correct_ANS;
 	public Toggle UnCorrect_ANS_1;
 	public Toggle UnCorrect_ANS_2;
 	
+	
+	void Start()
+    {
+        // Собираем позиции
+        List<Vector3> positions = new List<Vector3>
+        {
+            targets[0].position,
+            targets[1].position,
+            targets[2].position
+        };
+
+        // Перемешиваем позиции
+        Shuffle(positions);
+
+        // Присваиваем новые позиции
+        for (int i = 0; i < 3; i++)
+        {
+            targets[i].position = positions[i];
+        }
+    }
+
+    // Алгоритм Фишера-Йетса для перемешивания
+    private void Shuffle<T>(List<T> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
+            T temp = list[i];
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+	
+
     public void Check_Ans(string name_test)
 	{
 		if(Correct_ANS.isOn)

@@ -4164,6 +4164,10 @@ MonoBehaviour:
   Color_Main: {r: 0.82745105, g: 0.7725491, b: 0.6666667, a: 1}
   Color_Correct: {r: 0.31198823, g: 0.5377358, b: 0.32069677, a: 1}
   Color_In_Correct: {r: 0.7647059, g: 0.254902, b: 0.254902, a: 1}
+  targets:
+  - {fileID: 164085631}
+  - {fileID: 1473949495}
+  - {fileID: 1885951126}
   Correct_ANS: {fileID: 1885951128}
   UnCorrect_ANS_1: {fileID: 1473949496}
   UnCorrect_ANS_2: {fileID: 164085634}
@@ -5192,6 +5196,10 @@ MonoBehaviour:
   Color_Main: {r: 0.82745105, g: 0.7725491, b: 0.6666667, a: 1}
   Color_Correct: {r: 0.31198823, g: 0.5377358, b: 0.32069677, a: 1}
   Color_In_Correct: {r: 0.7647059, g: 0.254902, b: 0.254902, a: 1}
+  targets:
+  - {fileID: 479495811}
+  - {fileID: 1870381888}
+  - {fileID: 1054220662}
   Correct_ANS: {fileID: 1870381885}
   UnCorrect_ANS_1: {fileID: 479495808}
   UnCorrect_ANS_2: {fileID: 1054220659}
