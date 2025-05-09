@@ -25,7 +25,7 @@
 	Пакеты устанавливаются автоматически при запуске проекта.
 
 		Установка:
-	1\ Клонируйте репозиторий:
+	1\   Клонируйте репозиторий:
 
 		(через команду) 
 			git clone https://github.com/LubninEgor/AR_Pervouralsk_Android.git
@@ -36,11 +36,11 @@
 			
 			(если не установлен GitHub Desktop):https://github.com/LubninEgor/AR_Pervouralsk_Android --> зеленая кнопка "<>Code" --> "Download ZIP"
 			
-	2\	Добавьте проект в Unity (Unity Hub --> Add --> Add project from dick --> выбрать папку с проектом)
+	2\   Добавьте проект в Unity (Unity Hub --> Add --> Add project from dick --> выбрать папку с проектом)
 	
-	3\	Откройте проект в Unity
+	3\   Откройте проект в Unity
 		
-	4\	Выберите целевую платформу (Android) в Build Settings
+	4\   Выберите целевую платформу (Android) в Build Settings
 		
 	5\  Сделайте Build
 	
@@ -48,5 +48,14 @@
 	
 		PlayerSettings --> Player --> OtherSettings --> identification --> Target API level (заменить Automatic на Android 9/10) --> сделайте Build (ждите скачивания пакетов через PowerShell)
 
+📸 Скриншоты/Видео
 
-	
+
+![Slide 16_9 - 21](https://github.com/user-attachments/assets/fa99dfad-63f2-45ff-894f-52e2e7a68d8a)
+![Slide 16_9 - 26](https://github.com/user-attachments/assets/daef870e-e2b0-4e2d-85e0-2e094627633e)
+![Slide 16_9 - 29](https://github.com/user-attachments/assets/c15095fd-2e0a-4e9c-ae94-eea4a0f50f9e)
+![Slide 16_9 - 24](https://github.com/user-attachments/assets/b33d3bc4-f93c-4839-bba0-065df5c686bf)
+![Slide 16_9 - 25](https://github.com/user-attachments/assets/e1eec980-614b-44c4-a0b7-16872c0975f1)
+![Slide 16_9 - 26-1](https://github.com/user-attachments/assets/6a635bce-6031-470d-a8dc-d9b65938003b)
+![Slide 16_9 - 27](https://github.com/user-attachments/assets/c4214076-184e-415f-beeb-b914342baf3d)
+![Slide 16_9 - 28](https://github.com/user-attachments/assets/3ba97cd1-bd3f-4a86-8d3a-2d7d1871f6fd)
