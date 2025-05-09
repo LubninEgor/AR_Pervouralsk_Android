@@ -1,15 +1,15 @@
 # AR_Pervouralsk_Android
 Дополненная реальность с привязкой к GPS. ARCore, Unity <!-- описание репозитория -->
 <!--Блок информации о репозитории в бейджах-->
-![Static Badge](https://img.shields.io/badge/OkulusDev-Oxygen-Oxygen)
-![GitHub top language](https://img.shields.io/github/languages/top/OkulusDev/Oxygen)
-![GitHub](https://img.shields.io/github/license/OkulusDev/Oxygen)
-![GitHub Repo stars](https://img.shields.io/github/stars/OkulusDev/Oxygen)
-![GitHub issues](https://img.shields.io/github/issues/OkulusDev/Oxygen)
+[![Unity](https://img.shields.io/badge/Unity-6000.0.23+-black?style=flat&logo=unity)](https://unity.com/)
+[![AR Foundation](https://img.shields.io/badge/AR%20Foundation-6.1.0-blue?style=flat&logo=unity)](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
+[![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android)](https://developer.android.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)](https://opensource.org/licenses/MIT)
+![Made With Love](https://img.shields.io/badge/Made%20With%20Love%20Cheloveki_team-FF69B4?style=flat)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+
 
 ![Logotype](https://github.com/user-attachments/assets/7e47ccd1-32b3-4c86-b8cb-4b610275da83)
-
-
 
 <!--Установка-->
 ## 🚀 Как запустить проект?
