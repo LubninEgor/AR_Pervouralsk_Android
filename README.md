@@ -14,13 +14,6 @@
 
 **Дополненная реальность для изучения исторических объектов Первоуральска**  
 *AR-гид с точной геолокацией, 3D моделями и интерактивным взаимодействием*
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fa99dfad-63f2-45ff-894f-52e2e7a68d8a" width="30%">
-  <img src="https://github.com/user-attachments/assets/daef870e-e2b0-4e2d-85e0-2e094627633e" width="30%">
-  <img src="https://github.com/user-attachments/assets/c15095fd-2e0a-4e9c-ae94-eea4a0f50f9e" width="30%">
-</p>
-
 ---
 
 ## 🚀 Возможности
