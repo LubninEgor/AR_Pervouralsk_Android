@@ -32,7 +32,7 @@
 
 ## ⚡ Быстрый старт
 
-- Unity 6000.0.23f1 ([скачать](unityhub://6000.0.23f1/1c4764c07fb4))
+- Unity 6000.0.23f1 [скачать](unityhub://6000.0.23f1/1c4764c07fb4)
 - Android 9+ устройство [с поддержкой ARCore](https://developers.google.com/ar/devices?hl=ru)
 
 bash
