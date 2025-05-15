@@ -1,7 +1,7 @@
 <!--О проекте-->
 # 🌍 AR Первоуральск [![GitHub Stars](https://img.shields.io/github/stars/LubninEgor/AR_Pervouralsk_Android?style=social)](https://github.com/LubninEgor/AR_Pervouralsk_Android/stargazers)
 
-<!--Блок информации о репозитории в бейджах-->
+<!--Блок информации о репозитории в бейджах--> 
 [![Unity](https://img.shields.io/badge/Unity-6000.0.23+-black?style=flat&logo=unity)](https://unity.com/)
 [![AR Foundation](https://img.shields.io/badge/AR%20Foundation-6.1.0-blue?style=flat&logo=unity)](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html)
 [![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android)](https://developer.android.com/)
