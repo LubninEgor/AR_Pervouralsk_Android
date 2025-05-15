@@ -31,9 +31,12 @@ public class Debug_ON : MonoBehaviour
 		if(tmpInputField.text == "vrar")
 		{
 			//Text_GPS.SetActive(true);
-			//Plane_Register.SetActive(false);
+			Plane_Register.SetActive(false);
 			password = 1;
-			SceneManager.LoadScene(1);
+			if(SceneManager.GetActiveScene().buildIndex == 0)
+			{
+				SceneManager.LoadScene(1);
+			}
 		}
 		else
 		{
