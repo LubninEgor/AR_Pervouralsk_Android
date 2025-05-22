@@ -208,7 +208,7 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 
 <!--Приложение-->
 ## 📸 Скриншоты/Видео
-
+ 
 
 ![Slide 16_9 - 21](https://github.com/user-attachments/assets/fa99dfad-63f2-45ff-894f-52e2e7a68d8a)
 ![Slide 16_9 - 26](https://github.com/user-attachments/assets/daef870e-e2b0-4e2d-85e0-2e094627633e)
