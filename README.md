@@ -11,6 +11,8 @@
 
 
 ![Logotype](https://github.com/user-attachments/assets/7e47ccd1-32b3-4c86-b8cb-4b610275da83)
+![Logotype](https://github.com/user-attachments/assets/716dde4a-25d1-42d8-8b08-d3ac0297b98a)
+![Logotype](https://github.com/user-attachments/assets/3fc921f2-47ce-4201-b166-d57ab1bbd7ea)
 
 # AR Первоуральск: Дополненная реальность для исторических объектов
 
@@ -208,7 +210,7 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 
 <!--Приложение-->
 ## 📸 Скриншоты/Видео
-
+ 
 
 ![Slide 16_9 - 21](https://github.com/user-attachments/assets/fa99dfad-63f2-45ff-894f-52e2e7a68d8a)
 ![Slide 16_9 - 26](https://github.com/user-attachments/assets/daef870e-e2b0-4e2d-85e0-2e094627633e)
