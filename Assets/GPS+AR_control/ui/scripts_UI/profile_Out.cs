@@ -70,10 +70,10 @@ public class profile_Out : MonoBehaviour
 		
 		score_test = test_kontora_1+test_kontora_2+test_krichniy_1+test_krichniy_2+test_kuznitsa_1+test_kuznitsa_2+test_domna_1+test_domna_2;
 		
-		history_TMP.text = "Можно изучить материал по 4м воссозданым  историческм зданиям. Вы изучили " + history + ".";
-		map_TMP.text = "Всего можно посетить 4 воссозданых  историческх здания. Вы посмотрели " + walk_map + ".";
+		history_TMP.text = "Можно изучить материал по 4-м воссозданным историческим зданиям. Вы изучили " + history + ".";
+		map_TMP.text = "Всего можно посетить 4 воссозданных исторических здания. Вы посмотрели " + walk_map + ".";
 		
-		test_TMP.text = "Всего можно выполнить 8 тестов по знанию истории города. Вы успешно прошли " + score_test + ".";
+		test_TMP.text = "Всего можно выполнить 8 тестов на знание истории города. Вы успешно прошли " + score_test + ".";
 		
 		history_IMG.fillAmount = (1f/4f) * history;
 		map_IMG.fillAmount = (1f/4f) * walk_map;

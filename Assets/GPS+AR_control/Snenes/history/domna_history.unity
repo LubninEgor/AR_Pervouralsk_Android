@@ -277,7 +277,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2118445215}
   m_HandleRect: {fileID: 2118445214}
   m_Direction: 0
-  m_Value: 0.51
+  m_Value: 1
   m_Size: 0.33333334
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -847,7 +847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1101.6, y: 0}
+  m_AnchoredPosition: {x: -2160, y: 0}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &413642008
@@ -1300,7 +1300,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0414\u043E\u043C\u0435\u043D\u043D\u0430\u044F \u043F\u0435\u0447\u044C
     (\u0434\u043E\u043C\u043D\u0430) - \u044D\u0442\u043E \u0431\u043E\u043B\u044C\u0448\u0430\u044F
-    \u043C\u0435\u0442\u0430\u043B\u043B\u0443\u0440\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u043C\u0435\u0442\u0430\u043B\u043B\u0443\u0440\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F,
     \u0432\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u043E \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u043D\u0430\u044F
     \u043F\u0435\u0447\u044C \u0448\u0430\u0445\u0442\u043D\u043E\u0433\u043E \u0442\u0438\u043F\u0430
     \u0434\u043B\u044F \u0432\u044B\u043F\u043B\u0430\u0432\u043A\u0438 \u0447\u0443\u0433\u0443\u043D\u0430
