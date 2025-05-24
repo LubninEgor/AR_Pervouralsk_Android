@@ -11,6 +11,8 @@
 
 
 ![Logotype](https://github.com/user-attachments/assets/7e47ccd1-32b3-4c86-b8cb-4b610275da83)
+![Logotype](https://github.com/user-attachments/assets/716dde4a-25d1-42d8-8b08-d3ac0297b98a)
+![Logotype](https://github.com/user-attachments/assets/3fc921f2-47ce-4201-b166-d57ab1bbd7ea)
 
 # AR Первоуральск: Дополненная реальность для исторических объектов
 
