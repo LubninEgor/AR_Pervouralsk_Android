@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class test : MonoBehaviour
 {
@@ -56,7 +58,7 @@ public class test : MonoBehaviour
 			Correct_ANS.GetComponent<Image>().color = Color_Correct;
 			UnCorrect_ANS_1.GetComponent<Image>().color = Color_Main;
 			UnCorrect_ANS_2.GetComponent<Image>().color = Color_Main;
-			Set_score(name_test);
+            Set_score(name_test);
 		}
 		
 		else if(UnCorrect_ANS_1.isOn)
@@ -64,14 +66,17 @@ public class test : MonoBehaviour
 			UnCorrect_ANS_1.GetComponent<Image>().color = Color_In_Correct;
 			Correct_ANS.GetComponent<Image>().color = Color_Main;
 			UnCorrect_ANS_2.GetComponent<Image>().color = Color_Main;
-		}
+            Handheld.Vibrate();
+
+        }
 		
 		else if(UnCorrect_ANS_2.isOn)
 		{
 			UnCorrect_ANS_2.GetComponent<Image>().color = Color_In_Correct;
 			Correct_ANS.GetComponent<Image>().color = Color_Main;
 			UnCorrect_ANS_1.GetComponent<Image>().color = Color_Main;
-		}
+            Handheld.Vibrate();
+        }
 	}
 	
 	void Set_score(string name_test)
