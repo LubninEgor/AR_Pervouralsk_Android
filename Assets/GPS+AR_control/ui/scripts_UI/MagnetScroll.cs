@@ -1,24 +1,26 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections; // Добавляем для работы с корутинами
 
 [RequireComponent(typeof(ScrollRect))]
 public class MagnetScroll : MonoBehaviour
 {
     [Header("Magnet Settings")]
-    public float magnetStrength = 10f;    // Сила притяжения
-    public float magnetZone = 0.2f;       // Зона действия магнита
+    public float magnetStrength = 10f;
+    public float magnetZone = 0.2f;
+    public float scrollDelay = 1f; // Добавляем параметр задержки
 
     private ScrollRect scrollRect;
     private bool isDragging = false;
     private float[] elementPositions;
-    private int magnetElementIndex;       // Теперь индекс определяется автоматически
-    bool button = false;
+    private int magnetElementIndex;
+    private bool isAutoScrolling = false;
 
     void Start()
     {
         scrollRect = GetComponent<ScrollRect>();
         CalculateElementPositions();
-		scrollRect.horizontalNormalizedPosition = elementPositions[magnetElementIndex];
+        scrollRect.horizontalNormalizedPosition = elementPositions[magnetElementIndex];
     }
 
     void CalculateElementPositions()
@@ -26,7 +28,6 @@ public class MagnetScroll : MonoBehaviour
         int childCount = scrollRect.content.childCount;
         elementPositions = new float[childCount];
         
-        // Рассчитываем позиции элементов (0-1)
         for (int i = 0; i < childCount; i++)
         {
             elementPositions[i] = (float)i / (childCount - 1);
@@ -35,7 +36,10 @@ public class MagnetScroll : MonoBehaviour
 
     void Update()
     {
-        UpdateMagnetElementIndex();
+        if (!isAutoScrolling)
+        {
+            UpdateMagnetElementIndex();
+        }
         
         if (!isDragging)
         {
@@ -43,7 +47,6 @@ public class MagnetScroll : MonoBehaviour
         }
     }
 
-    // Автоматически определяем ближайший элемент
     void UpdateMagnetElementIndex()
     {
         float currentPos = scrollRect.horizontalNormalizedPosition;
@@ -66,28 +69,51 @@ public class MagnetScroll : MonoBehaviour
         float magnetPos = elementPositions[magnetElementIndex];
         float distance = Mathf.Abs(currentPos - magnetPos);
 
-            // Если в зоне магнита
-            if (distance < magnetZone || button)
+        if (distance < magnetZone || isAutoScrolling)
         {
-            button = false;
-            // Плавное притяжение
             float newPos = Mathf.Lerp(
                 currentPos, 
                 magnetPos, 
-                magnetStrength * Time.deltaTime * (1 - distance/magnetZone)
+                magnetStrength * Time.deltaTime
             );
             scrollRect.horizontalNormalizedPosition = newPos;
+            
+            if (Mathf.Abs(newPos - magnetPos) < 0.001f)
+            {
+                isAutoScrolling = false;
+            }
         }
     }
 
     public void OnBeginDrag()
     {
         isDragging = true;
+        isAutoScrolling = false;
     }
 
     public void OnEndDrag()
     {
         isDragging = false;
-        button = true;
+        isAutoScrolling = true;
+    }
+    
+    // Изменяем метод для добавления задержки
+    public void ScrollToNext()
+    {
+        if (magnetElementIndex < elementPositions.Length - 1)
+        {
+            StartCoroutine(ScrollToNextWithDelay());
+        }
+    }
+
+    // Добавляем корутину для задержки
+    private IEnumerator ScrollToNextWithDelay()
+    {
+        // Ждем указанное количество секунд
+        yield return new WaitForSeconds(scrollDelay);
+        
+        magnetElementIndex++;
+        isAutoScrolling = true;
+        Debug.Log("Scrolling to index: " + magnetElementIndex);
     }
 }
