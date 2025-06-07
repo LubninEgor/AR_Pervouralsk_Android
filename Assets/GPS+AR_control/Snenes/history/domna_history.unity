@@ -3297,6 +3297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magnetStrength: 30
   magnetZone: 0.1
+  scrollDelay: 1
 --- !u!1 &1601559013
 GameObject:
   m_ObjectHideFlags: 0
