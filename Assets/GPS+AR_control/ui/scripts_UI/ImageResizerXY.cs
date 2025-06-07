@@ -32,12 +32,12 @@ public class ImageResizerXY : MonoBehaviour
 
     private void SetInitialSize()
     {
-        Vector2 newSize = new Vector2(
-            _isExpanded ? _maxWidth : _minWidth,
-            _isExpanded ? _maxHeight : _minHeight
-        );
-        _rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newSize.x);
-        _rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, newSize.y);
+		Vector2 newSize = new Vector2(
+			_isExpanded ? _maxWidth : _minWidth,
+			_isExpanded ? _maxHeight : _minHeight
+		);
+		_rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newSize.x);
+		_rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, newSize.y);
     }
 
     private void Update()

@@ -38,9 +38,13 @@ public class Score : MonoBehaviour
 		
 		if(nom_history == 4)
 			PlayerPrefs.SetInt("History_domna", 1);
+		
+		if(nom_history == 5)
+			PlayerPrefs.SetInt("History_obsiy", 1);
 		PlayerPrefs.Save();
 		
-		history = PlayerPrefs.GetInt("History_kontora") + PlayerPrefs.GetInt("History_krichniy") + PlayerPrefs.GetInt("History_kuznitsa") + PlayerPrefs.GetInt("History_domna");
+		history = PlayerPrefs.GetInt("History_kontora") + PlayerPrefs.GetInt("History_krichniy") + PlayerPrefs.GetInt("History_kuznitsa") + PlayerPrefs.GetInt("History_domna") + PlayerPrefs.GetInt("History_obsiy");
+		
 		PlayerPrefs.SetInt("History", history);
 		PlayerPrefs.Save();
 		

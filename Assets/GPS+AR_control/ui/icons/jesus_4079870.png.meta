@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: bad81840ef2afb24db11971efc17fcc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2177286290645909854
+    second: jesus_4079870_0
+  - first:
+      213: -6821572843695640156
+    second: jesus_4079870_1
+  - first:
+      213: 324240598876775964
+    second: jesus_4079870_2
+  - first:
+      213: 229516729173902656
+    second: jesus_4079870_3
+  - first:
+      213: -9060885849559355335
+    second: jesus_4079870_4
+  - first:
+      213: 8816918677916892790
+    second: jesus_4079870_5
+  - first:
+      213: -4680480132227301535
+    second: jesus_4079870_6
+  - first:
+      213: -2472109232062124219
+    second: jesus_4079870_7
+  - first:
+      213: 9128810684410714929
+    second: jesus_4079870_8
+  - first:
+      213: -1841404741494043758
+    second: jesus_4079870_9
+  - first:
+      213: -6410906967097994237
+    second: jesus_4079870_10
+  - first:
+      213: -3451711096390109372
+    second: jesus_4079870_11
+  - first:
+      213: -5917774353363837094
+    second: jesus_4079870_12
+  - first:
+      213: 2599581793226347911
+    second: jesus_4079870_13
+  - first:
+      213: 7015236518434391680
+    second: jesus_4079870_14
+  - first:
+      213: -4554138645580409176
+    second: jesus_4079870_15
+  - first:
+      213: 7907550086654557135
+    second: jesus_4079870_16
+  - first:
+      213: 1263598978314856148
+    second: jesus_4079870_17
+  - first:
+      213: 2138796556030285838
+    second: jesus_4079870_18
+  - first:
+      213: 1056122136352850631
+    second: jesus_4079870_19
+  - first:
+      213: 6103572833892152344
+    second: jesus_4079870_20
+  - first:
+      213: 5568686560696527427
+    second: jesus_4079870_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jesus_4079870_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 451
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5107487856473e10800000000000000
+      internalID: 2177286290645909854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 453
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1f11214a7e451a0800000000000000
+      internalID: -6821572843695640156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 474
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c166fc55b1fef7400800000000000000
+      internalID: 324240598876775964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 459
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0458b68cf386f2300800000000000000
+      internalID: 229516729173902656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 474
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930b6a29354414280800000000000000
+      internalID: -9060885849559355335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 453
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e3eb2d2dcfb5a70800000000000000
+      internalID: 8816918677916892790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 451
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f71543e189b0fb0800000000000000
+      internalID: -4680480132227301535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 314
+        width: 54
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f29f050cd41bdd0800000000000000
+      internalID: -2472109232062124219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 426
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b571273fc00be70800000000000000
+      internalID: 9128810684410714929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 237
+        width: 105
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b078fc4240276e0800000000000000
+      internalID: -1841404741494043758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 237
+        width: 105
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3041c027412e707a0800000000000000
+      internalID: -6410906967097994237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 426
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447b468bb0f0910d0800000000000000
+      internalID: -3451711096390109372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_12
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 314
+        width: 54
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fd4de4497dfdda0800000000000000
+      internalID: -5917774353363837094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 391
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78554d52ed1931420800000000000000
+      internalID: 2599581793226347911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 272
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08641a8f1702b5160800000000000000
+      internalID: 7015236518434391680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_15
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 391
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a61d4cd7037cc0c0800000000000000
+      internalID: -4554138645580409176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 84
+        width: 253
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb77a668e24dbd60800000000000000
+      internalID: 7907550086654557135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 157
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6e0017394398110800000000000000
+      internalID: 1263598978314856148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e089309c2288ead10800000000000000
+      internalID: 2138796556030285838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 84
+        width: 205
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c20db8cc7918ae00800000000000000
+      internalID: 1056122136352850631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 84
+        width: 57
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814bdd0872f34b450800000000000000
+      internalID: 6103572833892152344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jesus_4079870_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 203
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aeecb3ce2f74d40800000000000000
+      internalID: 5568686560696527427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jesus_4079870_0: 2177286290645909854
+      jesus_4079870_1: -6821572843695640156
+      jesus_4079870_10: -6410906967097994237
+      jesus_4079870_11: -3451711096390109372
+      jesus_4079870_12: -5917774353363837094
+      jesus_4079870_13: 2599581793226347911
+      jesus_4079870_14: 7015236518434391680
+      jesus_4079870_15: -4554138645580409176
+      jesus_4079870_16: 7907550086654557135
+      jesus_4079870_17: 1263598978314856148
+      jesus_4079870_18: 2138796556030285838
+      jesus_4079870_19: 1056122136352850631
+      jesus_4079870_2: 324240598876775964
+      jesus_4079870_20: 6103572833892152344
+      jesus_4079870_21: 5568686560696527427
+      jesus_4079870_3: 229516729173902656
+      jesus_4079870_4: -9060885849559355335
+      jesus_4079870_5: 8816918677916892790
+      jesus_4079870_6: -4680480132227301535
+      jesus_4079870_7: -2472109232062124219
+      jesus_4079870_8: 9128810684410714929
+      jesus_4079870_9: -1841404741494043758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

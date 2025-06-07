@@ -60,7 +60,7 @@ public class test : MonoBehaviour
 			UnCorrect_ANS_2.GetComponent<Image>().color = Color_Main;
             Set_score(name_test);
 		}
-		
+		 
 		else if(UnCorrect_ANS_1.isOn)
 		{
 			UnCorrect_ANS_1.GetComponent<Image>().color = Color_In_Correct;
@@ -102,6 +102,12 @@ public class test : MonoBehaviour
 			PlayerPrefs.SetInt("Test_domna_1", 1);
 		if(name_test == "domna2")
 			PlayerPrefs.SetInt("Test_domna_2", 1);
+		
+		
+		if(name_test == "obsiy1")
+			PlayerPrefs.SetInt("Test_obsiy_1", 1);
+		if(name_test == "obsiy2")
+			PlayerPrefs.SetInt("Test_obsiy_2", 1);
 		
 	}
 }
