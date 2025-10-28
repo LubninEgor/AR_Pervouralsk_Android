@@ -198,9 +198,9 @@ Vector3 GetARPositionFromGPS(double targetLat, double targetLon)
 репозиторий в GitHub https://github.com/LubninEgor/AR_Pervouralsk_Android
 
 ## 🌟 Roadmap
- ⭕Базовая геолокация AR-объектов  
- ❌Интеграция с картами OpenStreetMap  
- ❌Добавление аудиогида  
+ ✅Базовая геолокация AR-объектов  
+ 🕘Интеграция с картами OpenStreetMap  
+ ✅Добавление аудиогида  
  ❌Поддержка iOS (мы пытались, но у нас нет акаунта сертифицированного разработчика Apple)
 
 ## 🤝 Как помочь проекту
